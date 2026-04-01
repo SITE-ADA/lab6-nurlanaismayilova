@@ -4,7 +4,13 @@ package az.edu.ada.wm2.lab6.model.dto;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class ProductResponseDto {
     private UUID id;
 
